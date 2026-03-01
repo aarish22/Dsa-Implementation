@@ -39,25 +39,25 @@ class CircularQueue:
       self.front = (self.front + 1) % self.size
       return value
     
-    def frontElement(self):
-      if self.isEmpty():
-        return "Queue is empty"
-      else:
-        return self.queue[self.front]
+  def frontElement(self):
+    if self.isEmpty():
+      return "Queue is empty"
+    else:
+      return self.queue[self.front]
+  
+  def rearElement(self):
+    if self.isEmpty():
+      return "Queue is empty"
+    else:
+      return self.queue[self.rear]
     
-    def rearElement(self):
-      if self.isEmpty():
-        return "Queue is empty"
-      else:
-        return self.queue[self.rear]
-      
-    def lenQueue(self):
-      if self.isEmpty():
-        return 0
-      elif self.rear >= self.front:
-        return self.rear - self.front + 1
-      else:
-        return self.size - (self.front - self.rear - 1)
+  def lenQueue(self):
+    if self.isEmpty():
+      return 0
+    elif self.rear >= self.front:
+      return self.rear - self.front + 1
+    else:
+      return self.size - (self.front - self.rear - 1)
 cq = CircularQueue(5)
 cq.enqueue(10)    
 cq.enqueue(20)
@@ -69,3 +69,6 @@ print(cq.dequeue())
 print(cq.dequeue())
 cq.enqueue(60)
 print(cq.dequeue())
+print(cq.frontElement())
+print(cq.rearElement())
+print(cq.lenQueue())
