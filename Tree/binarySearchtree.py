@@ -1,2 +1,0 @@
-class bst:
-  pass
