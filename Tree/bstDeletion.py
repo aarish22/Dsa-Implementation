@@ -28,7 +28,13 @@ class BST:
       else:
         self._insert_recursive(current_node.right, value)
         
-        
+
+def get_Successor(root):
+  root = root.right
+  while root.left != None:
+    root = root.left
+  return root
+  
 def delete(root,value):
   if root is None:
     return None
@@ -41,7 +47,11 @@ def delete(root,value):
       return root.right
     elif root.right is None:
       return root.left
-    
+    else:
+      sucessor = get_Successor(root)
+      root.value = sucessor.value
+      root.right = delete(root.right, sucessor.value)
+  return root
 
     
 
