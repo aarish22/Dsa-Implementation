@@ -1,3 +1,6 @@
+## Stack is a linear data structure which follows the principle of Last In First Out (LIFO). The last element added to the stack will be the first one to be removed. The main operations of a stack are push (to add an element), pop (to remove an element), and peek (to view the top element without removing it).
+
+
 class Stack:
   def __init__(self):
     self.stack = []
