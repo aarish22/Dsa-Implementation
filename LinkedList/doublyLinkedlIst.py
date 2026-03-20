@@ -1,3 +1,6 @@
+## doubly linked list is a type of linked list in which each node contains a reference to the next node and the previous node in the sequence. This allows for efficient traversal in both directions, making it easier to insert and delete nodes at any position in the list. 
+
+
 class Node:
   def __init__(self,data=None):
     self.data = data
