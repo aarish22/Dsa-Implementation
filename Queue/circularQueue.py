@@ -1,3 +1,6 @@
+## Circular Queue implementation using list in Python
+## Circular Queue is a linear data structure that follows the FIFO (First In First Out) principle but connects the last position back to the first position to make a circle. It is also known as a Ring Buffer. The main advantage of a circular queue is that it can utilize the empty spaces in the queue that are created by dequeuing elements, which can lead to better memory utilization compared to a linear queue.
+
 ### circular queue implementation using list
 ## font == rear == -1
 ## first element is added rear = 0 and front = 0
