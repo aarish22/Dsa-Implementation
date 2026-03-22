@@ -1,3 +1,5 @@
+## bst traversal is a way to visit all the nodes in a binary search tree in a specific order. There are three types of bst traversal: pre-order, in-order and post-order. In pre-order traversal, we visit the root node first, then the left subtree and finally the right subtree. In in-order traversal, we visit the left subtree first, then the root node and finally the right subtree. In post-order traversal, we visit the left subtree first, then the right subtree and finally the root node.
+
 class Node:
   def __init__(self, value):
     self.value = value

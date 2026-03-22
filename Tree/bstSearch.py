@@ -1,4 +1,4 @@
-
+## bst search is similar to bst insertion but instead of inserting we are searching for the value in the tree and returning true if found and false if not found.
 class Node:
   def __init__(self, value):
     self.value = value
