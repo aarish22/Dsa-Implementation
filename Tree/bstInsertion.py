@@ -1,4 +1,4 @@
-
+## bst insertion is the process of adding a new node to a binary search tree while maintaining the properties of the tree. The properties of a binary search tree are that the left subtree of a node contains only nodes with values less than the node's value, and the right subtree of a node contains only nodes with values greater than the node's value. To insert a new node into a binary search tree, we start at the root and compare the value of the new node with the value of the current node. If the value of the new node is less than the value of the current node, we move to the left child of the current node. If the value of the new node is greater than or equal to the value of the current node, we move to the right child of the current node. We repeat this process until we find an empty spot where we can insert the new node.
 class Node:
   def __init__(self, value):
     self.value = value
