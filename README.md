@@ -1,1 +1,1 @@
-# Implemented Data Structures from Scratch
+# Implemented Data Structures and algorithms from Scratch
