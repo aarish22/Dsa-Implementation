@@ -1,3 +1,4 @@
+## when number of 0's are more we call it sparse graph and when number of 1's are more we call it dense graph, memory wastage is more in sparse graph and less in dense graph
 class Graph:
   def __init__(self, vertex):
     self.matrix = [[0]*vertex for _ in range(vertex)]
