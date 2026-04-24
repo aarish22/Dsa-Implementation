@@ -1,1 +1,6 @@
-# Implemented Data Structures from Scratch
+# Implemented Data Structures and algorithms from Scratch
+- Linked List
+- Queue
+- Recursion
+- Stack
+- Tree
