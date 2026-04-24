@@ -10,4 +10,16 @@ class Graph:
       self.matrix[src][dest] = 1
       self.matrix[dest][src] = 1
       
-  
+
+  def print_graph(self):
+     for row in self.matrix:
+       print(' '.join(map(str,row)))
+       
+       
+g = Graph(5)
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(1, 3)
+g.add_edge(2, 3)
+g.add_edge(3, 4)
+g.print_graph()
