@@ -27,6 +27,16 @@ class Graph:
          print(vertex, end="->")
          visited[vertex] = True
          
-      for i in (self.size-1):
+      for i in range(self.size):
         if self.matrix[vertex][i] == 1 and visited[i] == False:
           stack.append(i)
+
+g = Graph(5)
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(1, 3)
+g.add_edge(2, 3)
+g.add_edge(3, 4)
+g.print_graph()
+print("DFS Traversal:")
+g.dfs(0)

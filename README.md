@@ -4,3 +4,5 @@
 - Recursion
 - Stack
 - Tree
+- Algorithms:
+  - DFS
