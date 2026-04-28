@@ -6,3 +6,4 @@
 - Tree
 - Algorithms:
   - DFS
+  - BFS
